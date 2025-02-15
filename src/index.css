@@ -45,3 +45,17 @@ body{
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Moranga';
+  src: url('/src/assets/Fontspring-DEMO-moranga-medium-iF663c8d968bc4c.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 
+body {
+  font-family: 'Moranga', sans-serif;
+} */
+
+#mrg{
+  font-family: 'Moranga', sans-serif;
+}

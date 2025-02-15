@@ -35,7 +35,7 @@ const ParallaxText = ({ children, baseVelocity = 3 }) => {
 
 const NameRot = () => {
   return (
-    <section className="mt-20 md:mt-60 mb-0 md:mb-20 overflow-hidden py-8 space-y-4">
+    <section className="mt-50 md:mt-60 mb-20 md:mb-20 overflow-hidden py-8 space-y-4 ">
       <ParallaxText baseVelocity={-3}>rosh.D • </ParallaxText>
       <ParallaxText baseVelocity={3}>rosh.D • </ParallaxText>
     </section>

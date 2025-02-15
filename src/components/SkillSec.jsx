@@ -48,17 +48,17 @@ const SkillSec = () => {
   ];
 
   return (
-    <div className="bg-zinc-900 text-3xl sm:text-5xl md:text-7xl font-extrabold p-4 sm:p-8 md:p-20 leading-normal">
+    <div className="bg-zinc-900 text-4xl sm:text-5xl md:text-7xl font-extrabold p-8 sm:p-8 md:p-20 leading-normal">
       <h1>
         Things I'm <span className="text-blue-700">good</span> at
       </h1>
-      <h2 className="text-xl sm:text-3xl md:text-5xl mt-4">skills, interests, passion and hobbies</h2>
+      <h2 className="text-xl sm:text-3xl md:text-5xl mt-0 md:mt-4">skills, interests, passion and hobbies</h2>
 
-      <button className="text-xl sm:text-2xl md:text-4xl border-2 px-3 sm:px-4 py-1 sm:py-2 mt-8 sm:mt-12 md:mt-20 rounded-md">
+      <button className="text-2xl sm:text-3xl md:text-4xl border-2 px-3 sm:px-4 py-1 sm:py-2 mt-12 sm:mt-12 md:mt-20 rounded-md">
         development
       </button>
       
-      <div className="mt-6 sm:mt-8 md:mt-10">
+      <div className="mt-8 sm:mt-8 md:mt-10">
         <motion.div
           ref={ref}
           className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-5 lg:grid-cols-10 gap-6 sm:gap-6 md:gap-10"
@@ -79,11 +79,11 @@ const SkillSec = () => {
         </motion.div>
       </div>
 
-      <button className="text-xl sm:text-2xl md:text-4xl border-2 px-3 sm:px-4 py-1 sm:py-2 mt-8 sm:mt-12 md:mt-20 rounded-md">
+      <button className="text-2xl sm:text-2xl md:text-4xl border-2 px-3 sm:px-4 py-1 sm:py-2 mt-14 sm:mt-12 md:mt-20 rounded-md">
         designing
       </button>
       
-      <div className="mt-6 sm:mt-8 md:mt-10">
+      <div className="mt-6 sm:mt-8 md:mt-10 mb-10 md:mb-2">
       <motion.div
   ref={ref}
   className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-10 gap-4 sm:gap-6 md:gap-8 lg:gap-10"

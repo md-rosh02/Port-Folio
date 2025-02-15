@@ -43,32 +43,34 @@ const AboutMe = () => {
 
       {/* Main Content */}
       <motion.div
-        className="flex px-4 sm:px-8 md:px-40 items-center justify-center flex-col text-xl sm:text-3xl md:text-7xl font-extrabold gap-4 mt-12 sm:mt-0"
+        className="flex px-10 sm:px-8 md:px-40 items-center justify-center flex-col text-4xl sm:text-3xl md:text-7xl font-extrabold gap-4 mt-12 sm:mt-0"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
       >
         {/* Greetings */}
-        <motion.h1 className="font-[Caveat]" variants={itemVariants}>
-          Hii!
+        <motion.h1 id='mrg' className="font-[Caveat]" variants={itemVariants}>
+          Hi!
         </motion.h1>
 
         {/* About Text */}
         <motion.h1
+        id='mrg'
           variants={itemVariants}
           className="tracking-wider text-center leading-normal md:leading-relaxed font-[Caveat]"
         >
-          I'm <motion.span className="drop-shadow-[0_2px_4px_rgba(255,215,0,0.8)] hover:cursor-no-drop
-">Mohammed Roshan,</motion.span> <br />
-          an aspiring full Stack Web-Dev.
+          im <motion.span className="drop-shadow-[0_2px_4px_rgba(255,215,0,0.8)] hover:cursor-no-drop
+          ">rosh.d, </motion.span>
+          an aspiring full stack web-dev.
         </motion.h1>
 
         <motion.h1
+        id='mrg'
           variants={itemVariants}
           className="tracking-wider text-center leading-normal md:leading-relaxed font-[Caveat]"
         >
-          I thrive on solving complex{" "}
+          i thrive on solving complex{" "}
           <motion.span
             className="text-red-400 hover:line-through hover:cursor-pointer"
             whileHover={{ scale: 1.1 }}
@@ -87,10 +89,11 @@ const AboutMe = () => {
 
         {/* Recent Project */}
         <motion.h1
+        id='mrg'
           variants={itemVariants}
           className="tracking-wider text-center leading-normal md:leading-relaxed font-[Caveat]"
         >
-          My recent project,{" "}
+          my recent project,{" "}
           <motion.span
             className="drop-shadow-[0_2px_4px_rgba(56,189,248,0.8)] hover:cursor-pointer hover:line-through"
             whileHover={{ scale: 1.1 }}
@@ -98,7 +101,7 @@ const AboutMe = () => {
             LaborLoom
           </motion.span>
           , connects laborers with contractors, showcasing my ability to create
-          user-focused platforms.
+          user focused platforms.
         </motion.h1>
 
         {/* Buttons */}
@@ -126,7 +129,7 @@ const AboutMe = () => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8"
+              className="w-6 h-6 sm:w-6 sm:h-6 md:w-8 md:h-8"
             >
               <path
                 fillRule="evenodd"

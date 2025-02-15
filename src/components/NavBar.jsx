@@ -33,7 +33,7 @@ const NavBar = ({ onClick }) => {
       <motion.h1
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
-        className="text-3xl sm:text-4xl md:text-6xl"
+        className="text-4xl sm:text-4xl md:text-6xl"
       >
         <span className="text-blue-400">rosh</span>.D
       </motion.h1>
@@ -47,7 +47,7 @@ const NavBar = ({ onClick }) => {
             style={{ rotate: rotateValue }}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            className="w-6 h-6 sm:w-8 sm:h-8 md:w-12 md:h-12 text-white"
+            className="w-8 h-8 sm:w-8 sm:h-8 md:w-12 md:h-12 text-white"
           >
             <circle cx="12" cy="12" r="11" fill="none" stroke="white" strokeWidth="2" />
             <path

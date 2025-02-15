@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='text-3xl sm:text-5xl md:text-7xl lg:text-9xl font-extrabold p-4 sm:p-8 md:p-20 leading-normal sm:leading-14 md:leading-33 vs flex flex-col gap-5 md:gap-20 md:pb-0 '>
+    <div className='text-5xl sm:text-5xl md:text-7xl lg:text-9xl font-extrabold p-8 sm:p-8 md:p-20 leading-normal sm:leading-14 md:leading-33 vs flex flex-col gap-5 md:gap-20 md:pb-0 mt-10'>
       <h1>
-        you can always drop me a message on{' '}
+        you can drop me a message on{' '}
         <a 
           target='blank' 
           href='https://www.instagram.com/_i_wren_lix/' 

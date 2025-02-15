@@ -19,7 +19,7 @@ const ProjectRow = ({ year, title, description }) => {
         style={{ originX: 0 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
       />
-      <div className="grid grid-cols-[1fr_2fr_2fr] gap-2 sm:gap-3 md:gap-4 items-center text-base sm:text-xl md:text-3xl relative z-10">
+      <div className="grid grid-cols-[1fr_2fr_2fr] gap-2 sm:gap-3 md:gap-4 items-center text-lg sm:text-xl md:text-3xl relative z-10">
         <motion.h1
           className="text-left"
           variants={{
@@ -39,7 +39,7 @@ const ProjectRow = ({ year, title, description }) => {
           {title}
         </motion.h1>
         <motion.h1
-          className="text-right text-sm sm:text-base md:text-xl"
+          className="text-right text-lg sm:text-base md:text-3xl"
           variants={{
             hover: { color: '#000000' }
           }}
@@ -54,17 +54,17 @@ const ProjectRow = ({ year, title, description }) => {
 
 const ProjSec = () => {
   const projects = [
-    { year: '2025', title: 'LaborLoom', description: 'Bridge b/w labor & contractor' },
+    { year: '2025', title: 'LaborLoom', description: 'job web.' },
     { year: '2024', title: 'ExplorerAura', description: 'Travel Web.' },
-    { year: '2023', title: 'Gross-Store', description: 'E-Commerce Web.' },
-    { year: '2023', title: 'Food-Rest', description: 'Food Restaurant Web.' },
-    { year: '2023', title: 'Rocky-Papery', description: 'Online Rock-Paper-Scissor Game' },
+    { year: '2023', title: 'Gross-Store', description: 'E-Com Web.' },
+    { year: '2023', title: 'Food-Rest', description: 'Food Rest Web.' },
+    { year: '2023', title: 'Rocky-Papery', description: 'Online RPS Game' },
     { year: '2022', title: 'Bubbly', description: 'Bubble Game.' },
 
   ];
 
   return (
-    <div className="bg-zinc-900 text-white text-2xl sm:text-4xl md:text-7xl font-extrabold p-4 sm:p-8 md:p-20 leading-normal">
+    <div className="bg-zinc-900 text-white text-3xl sm:text-4xl md:text-7xl font-extrabold p-8 sm:p-8 md:p-20 leading-normal pb-20">
       <h1>
         watch my more <span className="text-yellow-500">artworld</span>
       </h1>
