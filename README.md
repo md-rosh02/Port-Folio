@@ -1,12 +1,41 @@
-<<<<<<< HEAD
-# Personal-Portfolio
-=======
-# React + Vite
+# 🚀 roshd's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 About Me
 
-Currently, two official plugins are available:
+Hey there! I'm **roshd**, a passionate frontend developer specializing in **React.js, Tailwind CSS, and Framer Motion**. I thrive on building sleek, high-performance, and user-friendly applications. Welcome to my portfolio repository! 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 0d8e25c (Updated)
+## 🔥 Key Features
+
+- 🌍 **Fully Responsive Design** – Adapts seamlessly across all devices.
+- ⚡ **Optimized Performance** – Fast and smooth interactions.
+- 🎨 **Smooth Animations** – Enhancing UI with Framer Motion.
+- 🚀 **Hosted on Vercel** – Reliable and fast deployment.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, Framer Motion
+- **Deployment:** Vercel / Netlify
+
+## 🎬 Live Demo
+
+🔗 [View Live](https://personal-portfolio-three-opal.vercel.app/)  
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/portfolio.git
+
+# Navigate to the project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+🚀 Built with ❤️ by **Roshd**
+
