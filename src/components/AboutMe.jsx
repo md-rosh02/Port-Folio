@@ -43,7 +43,7 @@ const AboutMe = () => {
 
       {/* Main Content */}
       <motion.div
-        className="flex px-4 sm:px-8 md:px-40 items-center justify-center flex-col text-xl sm:text-3xl md:text-7xl font-extrabold gap-4 mt-20 sm:mt-0"
+        className="flex px-4 sm:px-8 md:px-40 items-center justify-center flex-col text-xl sm:text-3xl md:text-7xl font-extrabold gap-4 mt-12 sm:mt-0"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -59,7 +59,9 @@ const AboutMe = () => {
           variants={itemVariants}
           className="tracking-wider text-center leading-normal md:leading-relaxed font-[Caveat]"
         >
-          I'm Sumith, a full Stack <br /> Web-Dev. & Software-Dev.
+          I'm <motion.span className="drop-shadow-[0_2px_4px_rgba(255,215,0,0.8)] hover:cursor-no-drop
+">Mohammed Roshan,</motion.span> <br />
+          an aspiring full Stack Web-Dev.
         </motion.h1>
 
         <motion.h1
@@ -105,7 +107,7 @@ const AboutMe = () => {
           variants={itemVariants}
         >
           <motion.button
-            className="bg-emerald-600 px-3 sm:px-4 py-2 rounded-lg text-white hover:bg-emerald-500 active:scale-90 text-lg sm:text-xl md:text-2xl hover:cursor-pointer"
+            className="bg-emerald-600 px-3 sm:px-4 py-3 rounded-lg text-white hover:bg-emerald-500 active:scale-90 text-lg sm:text-xl md:text-2xl hover:cursor-pointer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -116,7 +118,7 @@ const AboutMe = () => {
             onClick={() => {
               window.open('https://github.com/md-rosh02')
             }}
-            className="bg-blue-600 px-3 sm:px-4 py-2 rounded-lg text-lg sm:text-xl md:text-2xl flex items-center gap-2 text-white hover:bg-blue-500 active:scale-90 hover:cursor-pointer"
+            className="bg-blue-600 px-3 sm:px-4 py-3 md:py-5 rounded-lg text-lg sm:text-xl md:text-2xl flex items-center gap-2 text-white hover:bg-blue-500 active:scale-90 hover:cursor-pointer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

@@ -2,15 +2,15 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='text-3xl sm:text-5xl md:text-7xl lg:text-9xl font-extrabold p-4 sm:p-8 md:p-20 leading-normal sm:leading-14 md:leading-33 vs'>
+    <div className='text-3xl sm:text-5xl md:text-7xl lg:text-9xl font-extrabold p-4 sm:p-8 md:p-20 leading-normal sm:leading-14 md:leading-33 vs flex flex-col gap-5 md:gap-20 md:pb-0 '>
       <h1>
-        You can always drop me a message on{' '}
+        you can always drop me a message on{' '}
         <a 
           target='blank' 
           href='https://www.instagram.com/_i_wren_lix/' 
           className='text-pink-900 hover:cursor-pointer hover:line-through'
         >
-          Instagram
+          instagram
         </a>{' '}
         or{' '}
         <a 
@@ -18,7 +18,7 @@ const Contact = () => {
           className='text-blue-400 hover:cursor-pointer hover:line-through' 
           target='blank'
         >
-          LinkedIn
+          linkedIn
         </a>
         , or send me an{' '}
         <a 
@@ -30,6 +30,7 @@ const Contact = () => {
         </a>
         .
       </h1>
+      <h5 className='text-center text-xl md:text-2xl bottom-0'>created with 💖 by me.</h5>
     </div>
   )
 }

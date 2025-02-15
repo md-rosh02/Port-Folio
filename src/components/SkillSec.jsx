@@ -61,7 +61,7 @@ const SkillSec = () => {
       <div className="mt-6 sm:mt-8 md:mt-10">
         <motion.div
           ref={ref}
-          className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-5 lg:grid-cols-10 gap-3 sm:gap-6 md:gap-10"
+          className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-5 lg:grid-cols-10 gap-6 sm:gap-6 md:gap-10"
         >
           {icons.map((icon, index) => (
             <motion.img

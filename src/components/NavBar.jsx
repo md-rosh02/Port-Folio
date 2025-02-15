@@ -35,7 +35,7 @@ const NavBar = ({ onClick }) => {
         animate={{ scale: 1 }}
         className="text-3xl sm:text-4xl md:text-6xl"
       >
-        <span className="text-blue-400">JR.</span>Sumith
+        <span className="text-blue-400">rosh</span>.D
       </motion.h1>
 
         <motion.a
